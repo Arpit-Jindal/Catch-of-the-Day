@@ -1,3 +1,9 @@
+Link for the App:
+https://catch-of-the-day-2-330dc.firebaseapp.com/
+or
+https://catch-of-the-day-2-330dc.web.app/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
