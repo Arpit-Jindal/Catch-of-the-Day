@@ -1,11 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-const Login = props => (
+const Login = (props) => (
   <nav className="login">
     <h2>Inventory Login</h2>
     <p>
       Sign in to manage <strong>{props.storeId}</strong> store's Inventory.
     </p>
+
     <button
       className="github"
       onClick={() => {
@@ -28,7 +29,7 @@ const Login = props => (
 
 Login.propTypes = {
   authenticate: PropTypes.func.isRequired,
-  storeId: PropTypes.string.isRequired
+  storeId: PropTypes.string.isRequired,
 };
 
 export default Login;
